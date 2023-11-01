@@ -1,0 +1,106 @@
+
+*{ 
+    text-decoration: none;
+}
+.navigationbar{
+    background-color: rgba(241, 168, 134, 0.822); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-left: 0px; padding-right: 15px; height: 150px;
+}
+.navigationdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.ditigitalespressologo-image{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li { list-style:decimal-leading-zero; display: inline-block;
+}
+li a{ 
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px; 
+}
+button{
+    background-color: peru; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+button a{ color: white; font-weight: bold; font-size: 15px;
+}
+h1 {
+    color: white; font-weight: bolder; font-size: 20px; font-family:Georgia, 'Times New Roman', Times, serif ; margin-right: 20px
+}
+            body { 
+                background-color: peru;
+                color:blanchedalmond
+            }
+        .ditigitalespressologo-image {
+            height: 150px;
+        }
+
+        h2 {
+            font-size: 35px; font-weight: 600; color: white; margin-top: 15px; margin-left: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        h3{
+            font-size: 35px; font-weight: 600; color: white; margin-top: 100px; margin-left: 10px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+         }
+        .MainPageCoffeShopBackground-image {
+            float: left;
+            width: 600px;
+            padding: 0 10px 0 0;
+        }
+        .SatisfiedCustomerTestimony {
+            float: right;
+            width: 400px; 
+            padding: 0 0 10px 10px;
+        }
+        .BodyText1{
+            font-size: 20px; font-weight: bold; color: white; padding-left: 10px; text-align: justify; 
+        }
+        .BodyText2{
+            font-size: 20px; font-weight: bold; color: white; padding-left: 10px; text-align: justify;
+        }
+    footer{
+        background-color: rgba(241, 168, 134, 0.822);
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .footerContainer{
+        height: 200px;
+        width: 100%;
+        padding: 70px 30px 20px;
+    }
+    .SocialIcons{
+        height: fit-content;
+        display:flex; justify-content: center;
+    }
+.SocialIcons a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.SocialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.FooterNavigation{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterNavigation ul li{
+    color:  rgba(241, 168, 134, 0.822) ;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.FooterBottom {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
